@@ -135,7 +135,7 @@ foreach($element in $array)
 ### Bash
 
 ```bash
-var=1
+
 case $var in
 1)
     # do something
@@ -147,12 +147,11 @@ case $var in
     # do something
 ;;
 esac
-Outputs:
 ```
 
 ### PowerShell
 ```powershell
-switch ($fruit) {
+switch ($var) {
     1  {
        # do something
        break
