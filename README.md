@@ -143,8 +143,8 @@ case $var in
 2)
     # do something
 ;;
-3)
-    # do something
+*)
+    # do something for default case
 ;;
 esac
 ```
@@ -161,7 +161,7 @@ switch ($var) {
        break
     }  
     default {
-       # do something
+       # do something for default case
        break
     }
 }
